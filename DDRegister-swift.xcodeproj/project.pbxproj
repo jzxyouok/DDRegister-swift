@@ -7,21 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5473E4E7A5B7C4FAA7A053 /* Pods_DDRegister_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE66394B309C9A7DC645083 /* Pods_DDRegister_swift.framework */; };
 		665C85001CD829E500C8C79D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C84FF1CD829E500C8C79D /* AppDelegate.swift */; };
-		665C85021CD829E500C8C79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C85011CD829E500C8C79D /* ViewController.swift */; };
 		665C85051CD829E500C8C79D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665C85031CD829E500C8C79D /* Main.storyboard */; };
 		665C85071CD829E500C8C79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665C85061CD829E500C8C79D /* Assets.xcassets */; };
 		665C850A1CD829E500C8C79D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665C85081CD829E500C8C79D /* LaunchScreen.storyboard */; };
+		665C85181CD82F5E00C8C79D /* LoginViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C85161CD82F5E00C8C79D /* LoginViewViewController.swift */; };
+		665C85191CD82F5E00C8C79D /* LoginViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 665C85171CD82F5E00C8C79D /* LoginViewViewController.xib */; };
+		665C851B1CD86D9600C8C79D /* loginViewFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C851A1CD86D9600C8C79D /* loginViewFrame.swift */; };
+		665C851E1CD871B800C8C79D /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C851D1CD871B800C8C79D /* NetworkingManager.swift */; };
+		665C85201CD87E6B00C8C79D /* UserloginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C851F1CD87E6B00C8C79D /* UserloginModel.swift */; };
+		665C85351CD89FB000C8C79D /* WechatLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C85341CD89FB000C8C79D /* WechatLogin.swift */; };
+		665C85371CD8A27300C8C79D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C85361CD8A27300C8C79D /* ViewController.swift */; };
+		665C85401CD983EF00C8C79D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C853F1CD983EF00C8C79D /* Security.framework */; };
+		665C85421CD9840C00C8C79D /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C85411CD9840C00C8C79D /* libiconv.2.4.0.tbd */; };
+		665C85441CD9841700C8C79D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C85431CD9841700C8C79D /* SystemConfiguration.framework */; };
+		665C85461CD9842000C8C79D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C85451CD9842000C8C79D /* CoreGraphics.framework */; };
+		665C85481CD9842B00C8C79D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C85471CD9842B00C8C79D /* libsqlite3.tbd */; };
+		665C854A1CD9843200C8C79D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C85491CD9843200C8C79D /* CoreTelephony.framework */; };
+		665C854C1CD9843D00C8C79D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C854B1CD9843D00C8C79D /* libstdc++.tbd */; };
+		665C854E1CD9844600C8C79D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 665C854D1CD9844600C8C79D /* libz.tbd */; };
+		665C857A1CD9A18E00C8C79D /* QQLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665C85791CD9A18E00C8C79D /* QQLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EE66394B309C9A7DC645083 /* Pods_DDRegister_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDRegister_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AAE1EF4CBCA1B7C7D98B92 /* Pods-DDRegister-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDRegister-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDRegister-swift/Pods-DDRegister-swift.release.xcconfig"; sourceTree = "<group>"; };
 		665C84FC1CD829E500C8C79D /* DDRegister-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DDRegister-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		665C84FF1CD829E500C8C79D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		665C85011CD829E500C8C79D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		665C85041CD829E500C8C79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		665C85061CD829E500C8C79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665C85091CD829E500C8C79D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		665C850B1CD829E500C8C79D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665C85161CD82F5E00C8C79D /* LoginViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewViewController.swift; sourceTree = "<group>"; };
+		665C85171CD82F5E00C8C79D /* LoginViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewViewController.xib; sourceTree = "<group>"; };
+		665C851A1CD86D9600C8C79D /* loginViewFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewFrame.swift; sourceTree = "<group>"; };
+		665C851D1CD871B800C8C79D /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		665C851F1CD87E6B00C8C79D /* UserloginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserloginModel.swift; sourceTree = "<group>"; };
+		665C85341CD89FB000C8C79D /* WechatLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatLogin.swift; sourceTree = "<group>"; };
+		665C85361CD8A27300C8C79D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		665C853F1CD983EF00C8C79D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		665C85411CD9840C00C8C79D /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		665C85431CD9841700C8C79D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		665C85451CD9842000C8C79D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		665C85471CD9842B00C8C79D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		665C85491CD9843200C8C79D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		665C854B1CD9843D00C8C79D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		665C854D1CD9844600C8C79D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		665C855A1CD98F9C00C8C79D /* DDRegister-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDRegister-swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		665C85791CD9A18E00C8C79D /* QQLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQLogin.swift; sourceTree = "<group>"; };
+		7FA913A171AED562D1D95DAC /* Pods-DDRegister-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDRegister-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDRegister-swift/Pods-DDRegister-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665C854E1CD9844600C8C79D /* libz.tbd in Frameworks */,
+				665C854C1CD9843D00C8C79D /* libstdc++.tbd in Frameworks */,
+				665C854A1CD9843200C8C79D /* CoreTelephony.framework in Frameworks */,
+				665C85481CD9842B00C8C79D /* libsqlite3.tbd in Frameworks */,
+				665C85461CD9842000C8C79D /* CoreGraphics.framework in Frameworks */,
+				665C85441CD9841700C8C79D /* SystemConfiguration.framework in Frameworks */,
+				665C85421CD9840C00C8C79D /* libiconv.2.4.0.tbd in Frameworks */,
+				665C85401CD983EF00C8C79D /* Security.framework in Frameworks */,
+				0E5473E4E7A5B7C4FAA7A053 /* Pods_DDRegister_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,9 @@
 			children = (
 				665C84FE1CD829E500C8C79D /* DDRegister-swift */,
 				665C84FD1CD829E500C8C79D /* Products */,
+				665C85141CD82BE200C8C79D /* other */,
+				9A76D2A3EED0D9E66212BE18 /* Pods */,
+				7773374CD2C9E1A96FBB2302 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +102,102 @@
 			isa = PBXGroup;
 			children = (
 				665C84FF1CD829E500C8C79D /* AppDelegate.swift */,
-				665C85011CD829E500C8C79D /* ViewController.swift */,
+				665C85381CD97E6A00C8C79D /* support */,
+				665C85211CD88F6C00C8C79D /* lib */,
+				665C851C1CD8719300C8C79D /* Manager */,
+				665C85131CD82BAF00C8C79D /* Controller */,
+				665C85121CD82BA000C8C79D /* Model */,
+				665C85111CD82B9100C8C79D /* View */,
+			);
+			path = "DDRegister-swift";
+			sourceTree = "<group>";
+		};
+		665C85111CD82B9100C8C79D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				665C85161CD82F5E00C8C79D /* LoginViewViewController.swift */,
+				665C851A1CD86D9600C8C79D /* loginViewFrame.swift */,
+				665C85171CD82F5E00C8C79D /* LoginViewViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		665C85121CD82BA000C8C79D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				665C851F1CD87E6B00C8C79D /* UserloginModel.swift */,
+				665C85341CD89FB000C8C79D /* WechatLogin.swift */,
+				665C85791CD9A18E00C8C79D /* QQLogin.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		665C85131CD82BAF00C8C79D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				665C85361CD8A27300C8C79D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		665C85141CD82BE200C8C79D /* other */ = {
+			isa = PBXGroup;
+			children = (
 				665C85031CD829E500C8C79D /* Main.storyboard */,
 				665C85061CD829E500C8C79D /* Assets.xcassets */,
 				665C85081CD829E500C8C79D /* LaunchScreen.storyboard */,
 				665C850B1CD829E500C8C79D /* Info.plist */,
 			);
+			name = other;
 			path = "DDRegister-swift";
+			sourceTree = "<group>";
+		};
+		665C851C1CD8719300C8C79D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				665C851D1CD871B800C8C79D /* NetworkingManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		665C85211CD88F6C00C8C79D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		665C85381CD97E6A00C8C79D /* support */ = {
+			isa = PBXGroup;
+			children = (
+				665C855A1CD98F9C00C8C79D /* DDRegister-swift-Bridging-Header.h */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		7773374CD2C9E1A96FBB2302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665C854D1CD9844600C8C79D /* libz.tbd */,
+				665C854B1CD9843D00C8C79D /* libstdc++.tbd */,
+				665C85491CD9843200C8C79D /* CoreTelephony.framework */,
+				665C85471CD9842B00C8C79D /* libsqlite3.tbd */,
+				665C85451CD9842000C8C79D /* CoreGraphics.framework */,
+				665C85431CD9841700C8C79D /* SystemConfiguration.framework */,
+				665C85411CD9840C00C8C79D /* libiconv.2.4.0.tbd */,
+				665C853F1CD983EF00C8C79D /* Security.framework */,
+				1EE66394B309C9A7DC645083 /* Pods_DDRegister_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A76D2A3EED0D9E66212BE18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FA913A171AED562D1D95DAC /* Pods-DDRegister-swift.debug.xcconfig */,
+				28AAE1EF4CBCA1B7C7D98B92 /* Pods-DDRegister-swift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 665C850E1CD829E500C8C79D /* Build configuration list for PBXNativeTarget "DDRegister-swift" */;
 			buildPhases = (
+				90DCAF228DD526504BA38EA5 /* Check Pods Manifest.lock */,
 				665C84F81CD829E500C8C79D /* Sources */,
 				665C84F91CD829E500C8C79D /* Frameworks */,
 				665C84FA1CD829E500C8C79D /* Resources */,
+				9F02CC3E13CEDF7EBEF09245 /* Embed Pods Frameworks */,
+				7CBFAFAC8C92C9963B5575B9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,18 +265,73 @@
 				665C850A1CD829E500C8C79D /* LaunchScreen.storyboard in Resources */,
 				665C85071CD829E500C8C79D /* Assets.xcassets in Resources */,
 				665C85051CD829E500C8C79D /* Main.storyboard in Resources */,
+				665C85191CD82F5E00C8C79D /* LoginViewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CBFAFAC8C92C9963B5575B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDRegister-swift/Pods-DDRegister-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90DCAF228DD526504BA38EA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F02CC3E13CEDF7EBEF09245 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDRegister-swift/Pods-DDRegister-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		665C84F81CD829E500C8C79D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				665C85021CD829E500C8C79D /* ViewController.swift in Sources */,
 				665C85001CD829E500C8C79D /* AppDelegate.swift in Sources */,
+				665C85351CD89FB000C8C79D /* WechatLogin.swift in Sources */,
+				665C851B1CD86D9600C8C79D /* loginViewFrame.swift in Sources */,
+				665C857A1CD9A18E00C8C79D /* QQLogin.swift in Sources */,
+				665C851E1CD871B800C8C79D /* NetworkingManager.swift in Sources */,
+				665C85371CD8A27300C8C79D /* ViewController.swift in Sources */,
+				665C85201CD87E6B00C8C79D /* UserloginModel.swift in Sources */,
+				665C85181CD82F5E00C8C79D /* LoginViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +380,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -201,9 +396,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/DDRegister-swift/WX.SDK1.6.2\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -231,6 +428,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -240,31 +438,80 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/DDRegister-swift/WX.SDK1.6.2\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		665C850F1CD829E500C8C79D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FA913A171AED562D1D95DAC /* Pods-DDRegister-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DDRegister-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "DD.DDRegister-swift";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WechatKit\"",
+					"-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-----IF-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDRegister-swift/DDRegister-swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
 		665C85101CD829E500C8C79D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AAE1EF4CBCA1B7C7D98B92 /* Pods-DDRegister-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "DDRegister-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "DD.DDRegister-swift";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WechatKit\"",
+					"-arc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-----IF-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
+				SWIFT_OBJC_BRIDGING_HEADER = "DDRegister-swift/DDRegister-swift-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -287,6 +534,7 @@
 				665C85101CD829E500C8C79D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

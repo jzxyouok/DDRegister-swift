@@ -1,0 +1,1 @@
+../../../WechatKit/SDKExport/WechatAuthSDK.h

@@ -1,0 +1,1 @@
+../../../WechatKit/SDKExport/WXApiObject.h
